@@ -1,13 +1,25 @@
-<!DOCTYPE html>
-<html lang="id">
-    <head>
-    <meta charset="UTF-8">
-    <title>TiketWar</title>
-</head>
-<body>
+<!DOCTYPE html> 
+<html lang="id"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>TiketWar</title> 
+</head> 
+<body> 
 
-<?php
-   echo "Selamat datang di TiketWar - war tiket konser paling gacorr!";
-   ?>
-</body>
+<?php 
+    $namaKonser = "Coldplay - Music of the Spheres"; 
+    $hargaTiket = 1500000; 
+    $sisaTiket = 25; 
+    $sudahSoldOut = false; 
+?>
+
+<p>Nama Konser: <?php echo $namaKonser; ?></p> 
+<p>Harga Tiket: Rp <?php echo number_format($hargaTiket, 0, ',', '.'); ?></p> 
+<p>Sisa Tiket: <?php echo $sisaTiket; ?></p> 
+
+<?php 
+    echo "Selamat datang di TiketWar - war tiket konser paling gacorr!"; 
+?>
+
+</body> 
 </html>
